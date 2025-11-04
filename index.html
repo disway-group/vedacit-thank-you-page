@@ -1,22 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vedacit | Obrigado!</title>
-    <link rel="stylesheet" href="./globals.css" />
-    <link rel="stylesheet" href="./thank-you-page.css" />
-  </head>
 
-  <body>
-    <div class="thank-you-card">
-      <div class="icon-container"></div>
-      <h1>Obrigado!</h1>
-      <p>
-        Sua inscrição foi recebida com sucesso.<br />Entraremos em contato em
-        breve.
-      </p>
-      <a href="/" class="btn">Voltar ao site</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vedacit | Obrigado!</title>
+  <link rel="stylesheet" href="./_assets/_css/globals.css">
+  <link rel="stylesheet" href="./_assets/_css/style.css">
+  <link rel="stylesheet" href="./_assets/_css/responsive.css">
+  <!-- Font Awesome CDN (free version) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <div class="sticky-header-wrapper">
+
+    <div class="top-bar">
+      <div class="container">
+        <span class="top-bar-text">Vedacit Pro</span>
+
+        <div class="accessibility-options">
+          <span>Contraste</span>
+          <a href="#" aria-label="Mudar Contraste"><i class="fa-solid fa-circle-half-stroke"></i></a>
+          <a href="#" aria-label="Modo Claro"><i class="fa-solid fa-sun"></i></a>
+          <a href="#" aria-label="Modo Escuro"><i class="fa-solid fa-moon"></i></a>
+
+          <span class="divider"></span> <span>Texto</span>
+          <a href="#" aria-label="Aumentar Fonte" class="text-icon">A+</a>
+          <a href="#" aria-label="Diminuir Fonte" class="text-icon">A-</a>
+
+          <span class="divider"></span> <span>Libras</span>
+          <a href="#" aria-label="Ativar Libras"><i class="fa-solid fa-hands-asl-interpreting"></i></a>
+        </div>
+      </div>
     </div>
-  </body>
+
+    <header class="site-header">
+
+      <div class="logo-wrapper">
+        <a href="/">
+          <img src="./_assets/_images/logo-vedacit.svg" alt="Logo da Vedacit">
+        </a>
+      </div>
+
+      <div class="nav-wrapper">
+
+        <input type="checkbox" id="menu-toggle" class="mobile-menu-checkbox">
+
+        <label for="menu-toggle" class="mobile-nav-toggle" aria-label="Abrir menu">
+          <i class="fa-solid fa-bars icon-open"></i> <i class="fa-solid fa-times icon-close"></i> </label>
+        <nav class="main-nav">
+          <ul class="nav-links">
+            <li><a href="#">Produtos e Soluções</a></li>
+            <li><a href="#">Lojistas</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Institucional</a></li>
+            <li><a href="#">Sistema B</a></li>
+            <li><a href="#">Vedacit Pro</a></li>
+          </ul>
+        </nav>
+
+        <a href="#" class="btn-header">Onde Encontrar</a>
+
+        <div class="header-search">
+          <a href="#" aria-label="Buscar"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+      </div>
+
+    </header>
+    <div class="progress-bar"></div>
+
+  </div>
+
+  <div class="thank-you-card">
+    <div class="icon-container"></div>
+    <h1>Obrigado!</h1>
+    <p>
+      Sua inscrição foi recebida com sucesso.<br />Entraremos em contato em
+      breve.
+    </p>
+    <a href="https://vedacit.com.br" class="btn">Voltar ao site</a>
+  </div>
+
+  <script src="./_assets/_js/header.js" defer></script>
+</body>
+
 </html>
