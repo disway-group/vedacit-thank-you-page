@@ -48,12 +48,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- LIBRAS ---
     document.querySelector('[aria-label="Ativar Libras"]').addEventListener('click', (e) => {
         e.preventDefault();
-        alert('Libras ativado! (integre o VLibras aqui se desejar)');
+        console.log('Libras ativado! (integre o VLibras aqui se desejar)');
     });
 
     // --- BUSCA ---
     document.querySelector('[aria-label="Buscar"]').addEventListener('click', (e) => {
         e.preventDefault();
-        alert('Abrir busca...');
+        console.log('Abrir busca...');
     });
 });
