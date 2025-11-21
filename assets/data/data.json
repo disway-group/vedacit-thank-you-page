@@ -1,0 +1,23 @@
+{
+    "black_friday": {
+        "description": "Uma chuva de ofertas caiu por aqui! Descontos intensos e por tempo limitadíssimo."
+    },
+    "churn_pix": {
+        "description": "Queremos ter você de volta! Condições únicas para reativar seu relacionamento com a gente."
+    },
+    "campanha_profissionais": {
+        "description": "Uma campanha dedicada aos experts da obra. Aqui, seu conhecimento vale mais."
+    },
+    "campanha_palestra": {
+        "description": "Um encontro criado para quem busca novas ideias, troca de experiências e inspiração para evoluir na prática."
+    },
+    "lançamento_produto": {
+        "description": "Alta tecnologia aplicada à construção civil. Prepare-se para o que vem aí."
+    },
+    "premiacao_vedacit": {
+        "description": "Reconhecendo talentos que impermeabilizam o Brasil com excelência."
+    },
+    "default": {
+        "description": "Seu cadastro foi recebido com sucesso. Em breve, entraremos em contato."
+    }
+}
