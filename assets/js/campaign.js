@@ -8,8 +8,8 @@ function getCampaignFromURL() {
 function updateThankYou(data) {
     const descEl = document.querySelector(".thank-you-card p");
 
-    if (data?.description) {
-        descEl.innerHTML = data.description;
+    if (data?.thankyoutext) {
+        descEl.innerHTML = data.thankyoutext;
     }
 }
 
@@ -17,7 +17,7 @@ function updateThankYou(data) {
 function initThankYou() {
     const campanha = getCampaignFromURL();
 
-    fetch("/vedacit-thank-you-page/assets/data/data.json")
+    fetch("/vedacit-campanha/assets/data/data.json")
         .then(res => res.json())
         .then(json => {
             const key = (campanha && json[campanha]) ? campanha : "default";
